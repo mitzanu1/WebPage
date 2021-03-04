@@ -3,19 +3,39 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@react-pdf/renderer": "^1.6.12",
+    "@ant-design/icons": "^4.3.0",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.7.2",
+    "bootstrap": "^4.6.0",
+    "lodash": "^4.17.21",
     "react": "^17.0.1",
+    "react-bootstrap": "^1.5.0",
     "react-dom": "^17.0.1",
+    "react-redux": "^7.2.2",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.2",
+    "redux": "^4.0.5",
+    "antd": "^4.8.2",
+    "clsx": "^1.1.1",
+    "googleapis": "39",
+    "formik": "^2.2.5",
+    "i18next": "^19.8.4",
+    "i18next-browser-languagedetector": "^6.0.1",
+    "i18next-parser": "^3.6.0",
+    "node-sass": "4",
+    "object-hash": "^2.0.3",
+    "react-i18next": "^11.7.3",
     "web-vitals": "^1.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "i18n": "i18next 'src/**/*.{js,jsx}' [-oc]"
   },
   "eslintConfig": {
     "extends": [

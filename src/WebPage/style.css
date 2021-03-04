@@ -1,0 +1,58 @@
+.home {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url("./Img/home.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.navbar {
+  background-color: #343a40bb !important;
+}
+
+.mr-auto.navbar-nav {
+  margin-left: 40% !important;
+  width: 100%;
+}
+
+.nav-link {
+  margin: 0 5% 0 0;
+}
+
+.home-text {
+  color: wheat;
+  position: absolute;
+  left: 10%;
+  top: 40%;
+  max-width: 500px;
+  text-align: left;
+}
+
+.about {
+  margin: auto;
+  margin-top: 100px;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 991px) {
+  .mr-auto.navbar-nav {
+    margin: 0 !important;
+  }
+  .navbar-brand {
+    margin: 0;
+  }
+  .home-text h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .home-text p {
+    text-align: center;
+  }
+  .home-text {
+    text-align: center;
+    left: 0;
+    width: 100%;
+  }
+}
