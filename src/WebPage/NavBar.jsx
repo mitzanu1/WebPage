@@ -17,7 +17,7 @@ const NavBar = () => {
                     {/* <Nav.Link href="/about">About Me</Nav.Link> */}
                     <NavDropdown title="My Applications" id="collasible-nav-dropdown">
                         <NavDropdown.Item href="https://mitz-ballgame.netlify.app">BallGame</NavDropdown.Item>
-                        <NavDropdown.Item href="/Chess">Chess</NavDropdown.Item>
+                        <NavDropdown.Item href="https://mitz-invoice-app.netlify.app/">InvoiceApp</NavDropdown.Item>
                         <NavDropdown.Item href="Something/3.3">Something</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
